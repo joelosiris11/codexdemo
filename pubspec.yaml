@@ -1,0 +1,18 @@
+name: teco_group_booking
+version: 0.1.0
+publish_to: 'none'
+description: App de Agendamiento de Espacios para Teco Group
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+
+  # Agregar dependencias para Firebase o Supabase según se requiera
+  # firebase_core: ^2.0.0
+  # supabase_flutter: ^1.0.0
+
+flutter:
+  uses-material-design: true
